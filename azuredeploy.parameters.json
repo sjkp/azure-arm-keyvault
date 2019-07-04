@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "keyVaultName": {
+      "value": "sjkpvaultor"
+    },
+    "objectId": {
+      "value": ["82e2689c-b421-4540-a8d1-eee1cbb3bde3","d16b4771-65d1-4511-b2f1-b88b23c30d85"]
+    },
+    "secretName": {
+      "value": "shh"
+    },
+    "secretValue": {
+      "value": "so-secret"
+    }
+  }
+}
